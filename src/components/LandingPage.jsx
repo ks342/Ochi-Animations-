@@ -7,13 +7,16 @@ function LandingPage() {
         <div className="textstructure mt-40 px-20">
 
             {["We Create","Eye-Opening","Presentations"].map((item,index)=>{
-                return             <div className="masker"> 
-                <h1 className='uppercase text-9xl tracking-tight leading-[8vw] font-["FoundersGrotesk"] font-medium'>{item} </h1>
+                return   (    <div className="masker"> 
+                <div className='w-fit flex '>
+                    {index === 1 && (<div className=' mr-[1vw] rounded-md w-[9vw] h-[5.7vw] relative top-[1.5vw] bg-red-500  '></div>)}
+                <h1 className='flex uppercase items-center text-[9vw]  leading-[7.5vw] h-full font-["FoundersGrotesk"] font-medium'>{item} </h1>
             </div>
-
+            </div>
+                ); 
             })}     
         </div>
-        <div className="border-t-[1px] border-zinc-700 mt-5 flex justify-between items-center py-5 px-20 ">
+        <div className="border-t-[1px] border-zinc-700 mt-8  flex justify-between items-center py-3 px-20 ">
       {[
         "For public and private comapnies",
         "From the first pitch to IPO",
