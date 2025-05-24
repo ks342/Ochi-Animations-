@@ -12,5 +12,10 @@ export default defineConfig({
   preview: {
     host: true,
     port: process.env.PORT || 4173,
+    allowedHosts: [
+      'ochi-animations.onrender.com',
+      'localhost',
+      '127.0.0.1'
+    ]
   }
 })
