@@ -24,9 +24,9 @@ function Footer() {
           <h1 className="text-[15vw] md:text-[12vw] lg:text-[10vw] font-semibold uppercase leading-none -mb-10">Presentations</h1>
         </div>
 
-        <div className="dets text-lg md:text-xl font-light font-['NeueMontreal']">
-          <h2 className='font-semibold text-2xl md:text-3xl mb-3'>Socials:</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-1 gap-4">
+        <div className="dets text-lg md:text-xl font-light font-['NeueMontreal'] mt-20 md:mt-32 lg:mt-40">
+          <h2 className='font-semibold text-2xl md:text-3xl mb-8'>Socials:</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-1 gap-6">
             <a className="block hover:text-[#CDEA68] transition-colors" href="#">Facebook</a>
             <a className="block hover:text-[#CDEA68] transition-colors" href="#">Instagram</a>
             <a className="block hover:text-[#CDEA68] transition-colors" href="#">Twitter</a>
